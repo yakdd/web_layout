@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Open Sans", sans-serif;
+    src: url("../fonts/OpenSans-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Open Sans", sans-serif;
+    src: url('../fonts/OpenSans-Light.ttf');
+    font-weight: 300;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navigation {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.main_title {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.caption {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.catalog_wrapper {
+    display: flex;
+}
+
+.catalog_wrapper figure {
+    width: 30%;
+}
+
+.catalog_wrapper figure img {
+    width: 100%;
+}
+
+.post_input {
+    margin: 5px;
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.input_action {
+    outline: none;
+    padding: 5px 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgb(0, 167, 0);
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input_action:hover {
+    background-color: rgb(163, 153, 13);
+    cursor: pointer;
+}
