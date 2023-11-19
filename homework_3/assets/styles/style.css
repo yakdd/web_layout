@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "Gilroy-Semibold";
+    src: url("../fonts/gilroy-semibold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/gilroy-bold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("../fonts/gilroy-medium.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: url("../fonts/gilroy-regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+html {
+    font-family: "Gilroy-Bold";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #000;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1266px;
+    margin: 0 auto;
+    padding: 0 4px;
+}
+
+.head {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 94px;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.menu-item {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu-item:hover {
+    color: #F25822;
+    font-family: Gilroy-Semibold;
+}
+
+.main-section {
+    display: flex;
+    justify-content: flex-start;
+    gap: 41px;
+}
+
+.main-text {
+    width: 522px;
+}
+
+.main-section h1 {
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+
+.main-section p {
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 37px;
+}
+
+.buttons {
+    display: flex;
+    gap: 72px;
+    align-items: center;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main-section button {
+    border: none;
+    padding: 15px 35px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.main-section a {
+    color: #AAA;
+}
+
+.parteners-logos {
+    margin-top: 200px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
